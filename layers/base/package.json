@@ -1,0 +1,22 @@
+{
+  "name": "@layers/base",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "prepare": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.12.4",
+    "@layers/extended": "workspace:*",
+    "vue": "latest"
+  },
+  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.4.35",
+    "unhead": "^1.9.16"
+  }
+}

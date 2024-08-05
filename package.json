@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r nuxt build",
+    "dev": "dotenv -- pnpm -r --stream dev",
+    "generate": "pnpm -r nuxt generate",
+    "preview": "pnpm -r nuxt preview",
+    "postinstall": "pnpm -r prepare"
+  },
+  "dependencies": {
+    "@layers/base": "workspace:*"
+  },
+  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2",
+  "devDependencies": {
+    "dotenv-cli": "^7.4.2"
+  }
+}
